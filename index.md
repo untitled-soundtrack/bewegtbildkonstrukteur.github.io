@@ -4,6 +4,16 @@ You can use the [editor on GitHub](https://github.com/untitled-soundtrack/digita
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Tests
+
+GENERATE THUMBNAIL
+
+	1. Create one frame video with video stream and silent audio stream
+	ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=48000  -loop 1 -i frame_01.png -c:v libx264 -crf 18 -t 0.01  -pix_fmt yuv420p thumbnail_frame.mp4
+	
+	2. Concat the one frame video with normal video content
+	ffmpeg -i thumbnail_frame.mp4  -i input_video.mp4 -filter_complex "[0:v:0][0:a:0][1:v:0][1:a:0]concat=n=2:v=1:a=1[v][a]" -map "[v]"  -map "[a]" -crf 18 -b:a 320K video_with_thumbnail.mp4
+  
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

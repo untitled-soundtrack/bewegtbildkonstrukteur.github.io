@@ -52,7 +52,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ```markdown
 1. Filter "Highpass" einsetzen
-2. Cutoff "170 Hz"
+2. Cutoff "170 Hz" Yeah
 ```
 
 ```markdown

@@ -54,6 +54,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 1. Filter "Highpass" einsetzen
 2. Cutoff "170 Hz" Yeah
 ```
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 
 ```markdown
 Source

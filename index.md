@@ -58,7 +58,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 | Song | Artist |
 | --- | --- |
-| Remotely Close: Silkyway | [Kutiman & Elif Çağlar Muslu](https://www.youtube.com/watch?v=9FFo21LlrWk) |
+| [Remotely Close: Silkyway](https://www.youtube.com/watch?v=9FFo21LlrWk) | Kutiman & Elif Çağlar Muslu] |
 
 
 

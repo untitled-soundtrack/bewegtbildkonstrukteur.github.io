@@ -61,5 +61,41 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 | [Remotely Close: Silkyway](https://www.youtube.com/watch?v=9FFo21LlrWk) | Kutiman & Elif Çağlar Muslu] |
 
 
+## PHP Code-Schnipsel
+
+### Videos normalisieren (Audiostream entfernen, h264 codec)
+
+```php
+function normalize_video($source_dir)
+{
+	global $pfad;
+	$file_name = "";
+	$file_container = "";
+		
+	if ($handle = opendir($pfad))
+	{
+		while (false != ($file = readdir($handle)))
+		{		
+			
+			$file_name = explode(".", $file)[0];
+			//$file_name = str_replace("."," ",$file);
+
+			/*if (($file != ".") && ($file != "..") && ($file != "mp4"))
+			{			
+				echo "ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" . "\n";
+				exec("ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" );            
+            }*/
+
+			if (($file != ".") && ($file != "..") && ($file != "mp4"))
+			{			
+				echo "ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -vf scale=1920:1080 -filter:v fps=25 -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" . "\n";
+				exec("ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -vf scale=1920:1080 -filter:v fps=25 -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" );            
+            }
+        }
+	}	
+	closedir($handle);
+ }
+```
+
 
 

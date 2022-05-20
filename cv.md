@@ -12,7 +12,7 @@
 - Erstellen von Tests & Entwicklungsvorschläge für unser internes VIDEO CMS
 - Backend-Tätigkeiten
 	- Betreung der NAS-Server (Windows & Linux Server)
-	- Automatisierung der Video-Encoding-Workflows (~ Re-Encoding von 3000 Filme)
+	- Automatisierung des Video-Encoding-Workflows (~ Re-Encoding von 3000 Filme)
 	- Verwaltung der VOD-Datenbank (SQL)
 
 **Tools:**

@@ -6,6 +6,8 @@
 Bis 2021 hatte [Drei TV](https://www.drei.at/drei-tv) einen hauseigenen Musik- und Unterhaltungssender **Drei Live** im Portfolio. Dieser wurde ab 2016 technisch ingesourced und von mir
 betreut.
 
+![This is an image](3film-1-1024x682.jpg)
+
 Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 - Auswahl und Inbetriebnahme eines Video Playout Systems
 - Betreuung des Videoservers

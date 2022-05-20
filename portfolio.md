@@ -1,7 +1,4 @@
-# Projektportfolio
-
-
-<img src="20201018_konstrukteur-tv_logo_v1.png" width="25%" height="25%">
+# Projektportfolio von Florian Bauer
 
 ## 3Film 
 2015 - 2019
@@ -17,8 +14,6 @@
 	- Betreung der NAS-Server (Windows & Linux Server)
 	- Automatisierung des Video-Encoding-Workflows (~ Re-Encoding von 3000 Filme)
 	- Verwaltung der VOD-Datenbank (SQL)
-
-	
 
 **Tools:**
 - [Cambria FTC](https://capellasystems.net/products/transcoding/cambria-ftc/)
@@ -47,6 +42,28 @@ betreut.
 - PHP: Automatisierung der Workflows
 - [Stryme GENESIX](https://www.stryme.com/genesix/): Video Playout System
 
+## Animierte Erklärvideos & Produktvideos
+2019 - 2022
+
+Im Rahmen meiner Tätigkeit als interner Videoproduzent wurden der Bedarf an leicht verständlichen animierten Erklärvideos zu Produkten (extern) oder internen Projekte immer größer. Eine kleine Auswahl dieser Projekte findet man unter [folgendem Vimeo-Showcase-Link](vimeo.com/user/5284132/folder/10654204).
+
+![This is an image](erklärvideo-01.png)
+
+**Meine Zuständigkeiten in der Rolle als Video Producer waren:**
+- Inhaltliche Abstimmungen und Konzeption mit den Fachabteilungen & Kunden
+- Animation / Motion-Design
+- Ton
+- Schnitt
+- Distribution (Intranet, Social Media)
+
+**Tools:**
+- Adobe After Effects 
+- Automatisierung des Adobe After Effects Workflows mit Adobe ExtendScript
+- Adobe Audition
+- Adobe Premiere Pro
+
+
+Ein Einblick in das [gesamte Portfolio der Videoproduktionen bei Drei.](https://vimeo.com/711808318/523d2ca1c6)
 
 
   

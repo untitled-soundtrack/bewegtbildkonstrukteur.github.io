@@ -9,13 +9,14 @@
 
 Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 - Technischer Austausch mit den Content-Partnern (Definition von Videospezifikationen) 
-- Backend-Tätigkeiten
-- Betreung der NAS-Server (Windows & Linux Server)
-- Automatisierung des Video-Encoding-Workflows (~ Re-Encoding von 3000 Filme)
-- Verwaltung der VOD-Datenbank (SQL)
 - Erstellen von Tests & Entwicklungsvorschläge für unser internes VIDEO CMS
+- Backend-Tätigkeiten
+	- Betreung der NAS-Server (Windows & Linux Server)
+	- Automatisierung des Video-Encoding-Workflows (~ Re-Encoding von 3000 Filme)
+	- Verwaltung der VOD-Datenbank (SQL)
+	
 
-Tools
+**Tools**
 - [Cambria FTC](https://capellasystems.net/products/transcoding/cambria-ftc/)
 - DRM-Videoverschlüsselung (CastLabs, DRMtoday) 
 - SQL

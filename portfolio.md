@@ -45,7 +45,7 @@ betreut.
 ## Animierte Erklärvideos & Produktvideos
 2019 - 2022
 
-Im Rahmen meiner Tätigkeit als interner Videoproduzent wurden der Bedarf an leicht verständlichen animierten Erklärvideos zu Produkten (extern) oder internen Projekte immer größer. Eine kleine Auswahl dieser Projekte findet man unter [folgendem Vimeo-Showcase-Link](vimeo.com/user/5284132/folder/10654204).
+Im Rahmen meiner Tätigkeit als interner Videoproduzent wurden der Bedarf an leicht verständlichen animierten Erklärvideos zu Produkten (extern) oder internen Projekte immer größer. Eine kleine Auswahl dieser Projekte findet man unter [folgendem Vimeo-Showcase-Link](https://vimeo.com/user/5284132/folder/10654204).
 
 ![This is an image](erklärvideo-01.png)
 

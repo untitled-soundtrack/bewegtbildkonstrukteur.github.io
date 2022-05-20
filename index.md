@@ -1,18 +1,24 @@
 # Projektportfolio
 
-You can use the [editor on GitHub](https://github.com/untitled-soundtrack/digitalebastelenzyklopaedie.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Drei TV / Drei Live
+2016 - 2021
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Bis 2021 hatte [Drei TV](https://www.drei.at/drei-tv) einen hauseigenen Musik- und Unterhaltungssender **Drei Live** im Portfolio. Dieser wurde ab 2016 technisch ingesourced und von mir
+betreut.
 
-### Tests
+Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
+- Auswahl und Inbetriebnahme eines Video Playout Systems
+- Betreuung des Videoservers
+- Automatisierung der Playlistenerstellungen für einen 24h Betrieb
+- Optimierung von Video-Encoding-Workflows
 
-GENERATE THUMBNAIL
+Verwendete Tools:
+- ffmpeg | Video-Encoding
+- PHP | Automatisierung der Workflows
+- Stryme GENESIX | Video Playout System
 
-	1. Create one frame video with video stream and silent audio stream
-	ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=48000  -loop 1 -i frame_01.png -c:v libx264 -crf 18 -t 0.01  -pix_fmt yuv420p thumbnail_frame.mp4
-	
-	2. Concat the one frame video with normal video content
-	ffmpeg -i thumbnail_frame.mp4  -i input_video.mp4 -filter_complex "[0:v:0][0:a:0][1:v:0][1:a:0]concat=n=2:v=1:a=1[v][a]" -map "[v]"  -map "[a]" -crf 18 -b:a 320K video_with_thumbnail.mp4
+
+
   
 ### Markdown
 
@@ -61,41 +67,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 | [Remotely Close: Silkyway](https://www.youtube.com/watch?v=9FFo21LlrWk) | Kutiman & Elif Çağlar Muslu] |
 
 
-## PHP Code-Schnipsel
 
-### Videos normalisieren (Audiostream entfernen, h264 codec)
 
-```php
-function normalize_video($source_dir)
-{
-	global $pfad;
-	$file_name = "";
-	$file_container = "";
-		
-	if ($handle = opendir($pfad))
-	{
-		while (false != ($file = readdir($handle)))
-		{		
-			
-			$file_name = explode(".", $file)[0];
-			//$file_name = str_replace("."," ",$file);
-
-			/*if (($file != ".") && ($file != "..") && ($file != "mp4"))
-			{			
-				echo "ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" . "\n";
-				exec("ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" );            
-            }*/
-
-			if (($file != ".") && ($file != "..") && ($file != "mp4"))
-			{			
-				echo "ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -vf scale=1920:1080 -filter:v fps=25 -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" . "\n";
-				exec("ffmpeg -y -i \"" . $pfad . $file . "\" -crf 24 " . " -vf scale=1920:1080 -filter:v fps=25 -pix_fmt yuv420p -an " .  $pfad . $file_name .  "_NORM.mp4" );            
-            }
-        }
-	}	
-	closedir($handle);
- }
-```
 
 
 

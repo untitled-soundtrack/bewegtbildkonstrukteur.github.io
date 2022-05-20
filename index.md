@@ -15,9 +15,9 @@ Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 - Optimierung von Video-Encoding-Workflows
 
 Verwendete Tools:
-- ffmpeg | Video-Encoding
-- PHP | Automatisierung der Workflows
-- Stryme GENESIX | Video Playout System
+- ffmpeg: Video-Encoding
+- PHP: Automatisierung der Workflows
+- Stryme GENESIX: Video Playout System
 
 
 

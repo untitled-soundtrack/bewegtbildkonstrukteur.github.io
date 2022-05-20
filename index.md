@@ -7,7 +7,7 @@
 
 ![This is an image](3film-1-1024x682.jpg)
 
-Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
+**Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:**
 - Technischer Austausch mit den Content-Partnern (Definition von Videospezifikationen) 
 - Erstellen von Tests & Entwicklungsvorschläge für unser internes VIDEO CMS
 - Backend-Tätigkeiten
@@ -17,7 +17,7 @@ Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 
 	
 
-**Tools**
+**Tools:**
 - [Cambria FTC](https://capellasystems.net/products/transcoding/cambria-ftc/)
 - DRM-Videoverschlüsselung (CastLabs, DRMtoday) 
 - SQL
@@ -33,16 +33,16 @@ betreut.
 
 ![This is an image](drei_live-screens.png)
 
-Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
+**Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:**
 - Auswahl und Inbetriebnahme eines Video Playout Systems
 - Betreuung des Videoservers
 - Automatisierung der Playlistenerstellungen für einen 24h Betrieb
 - Optimierung von Video-Encoding-Workflows
 
-Verwendete Tools:
+**Verwendete Tools:**
 - ffmpeg: Video-Encoding
 - PHP: Automatisierung der Workflows
-- Stryme GENESIX: Video Playout System
+- [Stryme GENESIX](https://www.stryme.com/genesix/): Video Playout System
 
 
 

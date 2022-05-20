@@ -1,6 +1,7 @@
 # Projektportfolio
 
-![This is an image](20201018_konstrukteur-tv_logo_v1.png)
+
+<img src="20201018_konstrukteur-tv_logo_v1.png" width="25%" height="25%">
 
 ## 3Film 
 2015 - 2019

@@ -31,7 +31,7 @@ Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 Bis 2021 hatte [Drei TV](https://www.drei.at/drei-tv) einen hauseigenen Musik- und Unterhaltungssender **Drei Live** im Portfolio. Dieser wurde ab 2016 technisch ingesourced und von mir
 betreut.
 
-
+![This is an image](drei_live-screens.png)
 
 Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 - Auswahl und Inbetriebnahme eines Video Playout Systems

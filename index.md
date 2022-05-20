@@ -7,6 +7,7 @@
 
 ![This is an image](3film-1-1024x682.jpg)
 
+```
 Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 - Technischer Austausch mit den Content-Partnern (Definition von Videospezifikationen) 
 - Erstellen von Tests & Entwicklungsvorschläge für unser internes VIDEO CMS
@@ -14,6 +15,7 @@ Meine Zuständigkeiten in der Rolle als IT Multimedia Products Engineer waren:
 	- Betreung der NAS-Server (Windows & Linux Server)
 	- Automatisierung des Video-Encoding-Workflows (~ Re-Encoding von 3000 Filme)
 	- Verwaltung der VOD-Datenbank (SQL)
+```	
 	
 
 **Tools**

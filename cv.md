@@ -1,7 +1,7 @@
 # Projektportfolio von Florian Bauer
 
 ## 3Film 
-2015 - 2019
+2015- 2019
 
 2015 hatte Drei eine eigene Video-App [3Film](https://www.drei.at/de/privat/produkte-und-services/drei-tv/drei-film.html) relauncht, welche eine Videothek und einen Kinoguide vereinte. 3Film konnte am Smartphone (Android, iOS), Tablet, TV (Google Chromecast) oder PC/Mac genutzt werden. Zu einem großen Teil wurde die App in der internen Produktentwicklung umgesetzt. 
 
